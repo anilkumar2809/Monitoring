@@ -121,7 +121,7 @@ npm install
 node bin/www
 ```
 
-Visit the monitoring dashboard at http://192.168.44.92:8080/. Confirm you can see the dashboard running.
+Visit the monitoring dashboard at http://192.168.56.92:8080/. Confirm you can see the dashboard running.
 
 ## Monitoring infrastructure
 
