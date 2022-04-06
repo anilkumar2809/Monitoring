@@ -34,7 +34,7 @@ exports.handler = async argv => {
 async function run(privateKey) {
 
     console.log(chalk.greenBright('Provisioning monitoring server...'));
-    let result = child.spawnSync(`bakerx`, `run monitor queues --ip 192.168.44.92 --sync`.split(' '), 
+    let result = child.spawnSync(`bakerx`, `run monitor queues --ip 192.168.56.92 --sync`.split(' '), 
         {shell:true, stdio: 'inherit', cwd: path.join(__dirname, "../../dashboard")} );
     if( result.error ) { console.log(result.error); process.exit( result.status ); }
 
