@@ -96,8 +96,8 @@ Pull the following bakerx images.
 
 ```bash
 # Updated to allow redis access from remote hosts
-bakerx pull CSC-DevOps/Images#Spring2020 queues
-bakerx pull CSC-DevOps/Images#Spring2020 alpine-node
+bakerx pull queues CSC-DevOps/Images#Spring2020 
+bakerx pull alpine-node CSC-DevOps/Images#Spring2020 
 ```
 
 Bring up the infrastructure.
